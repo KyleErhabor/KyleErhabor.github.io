@@ -2,22 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Klay&#39;s Treehouse</title>
+    <title>Klay&#39;s Treehouse: Posts by Kyle Erhabor </title>
     
     <meta name="description" content="My own little blog.">
     <meta name="keywords" content="">
     
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:300,400,700|Inconsolata" rel="stylesheet">
-    <link href="/css/normalize.css" rel="stylesheet" type="text/css" />
-    <link href="/css/blog.css" rel="stylesheet" type="text/css" />
-    <link href="/css/lotus-highlightjs.min.css" rel="stylesheet" type="text/css" />
+    <link href="/public/css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="/public/css/blog.css" rel="stylesheet" type="text/css" />
+    <link href="/public/css/lotus-highlightjs.min.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <aside id="sidebar">
       <div id="logo">
-        <a title="Klay&#39;s Treehouse" href="/">
-          <img class="icon" src="/img/white-lotus.svg">
+        <a title="Klay&#39;s Treehouse" href="/public">
+          <img class="icon" src="/public/img/white-lotus.svg">
           <div class="text desktop-and-tablet-only">Klay&#39;s Treehouse</div>
           <div class="text mobile-only">Klay&#39;s Treehouse</div>
         </a>
@@ -27,32 +27,32 @@
           <input type="checkbox" id="menu-checkbox" class="menu-checkbox">
           <label for="menu-checkbox" class="menutitle">
             <svg class="icon icon-menu" aria-hidden="true">
-              <use xlink:href="/img/icons.svg#icon-menu"></use>
+              <use xlink:href="/public/img/icons.svg#icon-menu"></use>
             </svg>
             <span class="menu-text">Menu</span>
           </label>
           <ul class="menu">
-            <li  class="active" >
-              <a title="Home" href="/">
+            <li >
+              <a title="Home" href="/public">
                 <div class="menu-item-text">Home</div>
               </a>
             </li>
             <li >
-              <a title="Archives" href="/archives">
+              <a title="Archives" href="/public/archives">
                 <div class="menu-item-text">Archives</div>
               </a>
             </li>
             
             
             <li >
-              <a href="/pages-output/about">
+              <a href="/public/pages-output/about">
                 <div class="menu-item-text">About</div>
               </a>
             </li>
             
             <!-- !!! -->
             <li>
-              <a title="RSS" href="/feed.xml">
+              <a title="RSS" href="/public/feed.xml">
                 <div class="menu-item-text">RSS</div>
               </a>
             </li>
@@ -63,14 +63,14 @@
             <li>
               <a title="GitHub" href="https://github.com/KyleErhabor" rel="external">
                 <svg class="icon icon-github-circled">
-                  <use xlink:href="/img/icons.svg#icon-github-circled"></use>
+                  <use xlink:href="/public/img/icons.svg#icon-github-circled"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a title="RSS Feed" href="/feed.xml">
+              <a title="RSS Feed" href="/public/feed.xml">
                 <svg class="icon icon-rss-squared">
-                  <use xlink:href="/img/icons.svg#icon-rss-squared"></use>
+                  <use xlink:href="/public/img/icons.svg#icon-rss-squared"></use>
                 </svg>
               </a>
             </li>
@@ -80,25 +80,20 @@
     </aside>
     <article id="main">
       
-<div id="post">
-    
-    <div class="post-header">
-        <h1>New Website</h1>
-        <div class="post-meta">
-            
-            <strong>April 7, 2022</strong>
-        </div>
+<div id="posts">
+    <div id="page-header" class="post-header">
+        <h1>Posts by Kyle Erhabor</h1>
     </div>
-    <h3 id="my-own-little-website">My own little website</h3><p>The time has come. Welcome!</p>
-    <br/>
-    <a class="button" href="/posts-output/2022-04-07-first-post">Continue reading &#8594;</a>
-    <hr>
     
-
-    <div id="prev-next">
+    <h4>2022 April</h4>
+    <ul>
         
+        <li>
+            Apr 07 - <a href="/public/posts-output/2022-04-07-first-post">New Website</a>
+        </li>
         
-    </div>
+    </ul>
+    
 </div>
 
       <hr/>
@@ -109,7 +104,7 @@
         <br>Theme by <a href="http://github.com/KingMob">KingMob</a>
       </div>
     </article>
-    <script src="/js/highlight.pack.js" type="application/javascript"></script>
+    <script src="/public/js/highlight.pack.js" type="application/javascript"></script>
     <script>
       hljs.initHighlightingOnLoad();
     </script>
